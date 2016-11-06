@@ -1,0 +1,7 @@
+﻿  readint.cpp
+  Banking_Application.cpp
+c:\users\talmaw19\documents\github\cs273\new folder\bankinghw6\bankinghw6\account.h(35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\talmaw19\documents\github\cs273\new folder\bankinghw6\bankinghw6\account.h(36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  BankingHW6.vcxproj -> C:\Users\talmaw19\Documents\GitHub\CS273\New folder\BankingHW6\Debug\BankingHW6.exe
+  BankingHW6.vcxproj -> C:\Users\talmaw19\Documents\GitHub\CS273\New folder\BankingHW6\Debug\BankingHW6.pdb (Full PDB)
