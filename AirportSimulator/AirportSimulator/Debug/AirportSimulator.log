@@ -1,0 +1,4 @@
+﻿  Main.cpp
+\\cs1\2019\talmaw19\cs273\homework\airportsimulator\airportsimulator\servicequeue.h(103): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  AirportSimulator.vcxproj -> \\cs1\2019\talmaw19\CS273\Homework\AirportSimulator\Debug\AirportSimulator.exe
+  AirportSimulator.vcxproj -> \\cs1\2019\talmaw19\CS273\Homework\AirportSimulator\Debug\AirportSimulator.pdb (Full PDB)
