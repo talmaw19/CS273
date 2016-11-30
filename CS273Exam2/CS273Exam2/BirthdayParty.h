@@ -20,10 +20,15 @@ private:
 	std::list<std::string> room;
 public:
 	PartyTicket * add(std::string name)
-	{
-		room.push_front(name); // a person is added to the front of the line 
+	{ 
+	// a person is added to the front of the line 
+		room.push_front(name); 
+		// get iterator to the front of the room (this points to the recently added party goer)
 		std::list<std::string> ::iterator it = room.begin();
+		 // create a new BIRTHDAY party ticket (BIRTHDAY PartyTicket) with its constructor
+		//            Pass to the constructor "this" party, and the iterator from step 2
 		PartyTicket * bPartyTicket = new BirthdayPartyTicket(this, it);
+		//return this new party ticket
 		return bPartyTicket;
 	}
 	void list()
