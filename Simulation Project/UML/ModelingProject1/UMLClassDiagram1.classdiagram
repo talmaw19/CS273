@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="3dd9fa22-70c6-4db5-a1b8-3a9838869fe8" name="UMLClassDiagram1" linkedPackageId="9541555a-f1c3-4dc5-80ef-6c2747340545" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d794490d-104f-4156-8931-7bda41f7a9ab">
+      <profileInstance Id="465f3e54-b4e2-4c2a-8847-6dd788b123b5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ea7b724b-a655-4df3-ad92-49014be429f0">
+      <profileInstance Id="7b9f3d8f-4037-409d-8608-d8fd19f61d41" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ed1a9844-971c-46ee-bf79-ee22a807ab8c" name="Emergency Room" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2b725f3f-46ef-49c7-8ad2-05b8d668b804" />
+        <targetEnds>
+          <association Id="bf84d7bd-4543-4699-adc9-bc9c8b72a49f" isDerived="false" sourceEndRoleName="Emergency Room" targetEndRoleName="Caregivers" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8a763b10-c79a-4aa9-ae32-9b4afdb71e07" LastKnownName="Caregivers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3baa7832-d02d-44a4-806c-e839738c3a1b" name="Emergency Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="91e6bf80-3684-4010-9d61-6d70587c07de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f4b50c50-20c0-4c86-aa11-0831d5cc33da" name="Caregivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b39bb14a-6df1-41b2-84c4-7041831514c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="51416d4e-e9ab-4e0e-a6c9-475b417e831d" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="e50be2af-d697-4f9c-828b-585a5448b073" name="PatientRecord()" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c063e710-b5f0-4552-93a4-bbd5af579bf6" />
+          </property>
+          <property Id="5ad74da6-dea9-4cd9-aa4a-bee83ec09e67" name="time()" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a712d5fe-171b-4c7a-a26d-00ae98fc35d9" />
+          </property>
+          <property Id="4e7ec9f8-97b0-409d-8a7a-76b689e1e37f" name="WaitingRoom" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b4e02302-40bb-4805-95d7-cd3a91ed0625" />
+          </property>
+          <property Id="80b7219e-6b84-4f82-babe-ec93a1b1b2ca" name="TreatmentRoom" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0a3beb2d-71d9-4768-b1e3-682a5d03a446" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="0c7fb886-d428-47ee-8a86-c69e849b5541" name="Treatment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1835a6d1-ba57-4107-8615-f642c4170cd8" />
+          </operation>
+          <operation Id="ee05e19b-1cd7-4a6d-af7b-760a4a8276c9" name="+ Operation2(arg list) return " isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd82f102-4a43-4da3-93b2-5da13ad8c6f5" />
+          </operation>
+          <operation Id="8dd4e659-a6a0-4b26-9c52-a172586eab12" name="+ Operation3(arg list ) return" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6c51581b-cf12-4055-baee-5b7982d46fa7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5c3a4fbe-43c6-4e9d-b923-fb501e45d546" name="Waiting Room" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9f5317a4-6ed8-4f70-bea8-532628c69ad7" />
+        <generalsInternal>
+          <generalization Id="53124c5b-d5b5-4d21-b1ae-27cc6505916b" isSubstitutable="false">
+            <classMoniker Id="ed1a9844-971c-46ee-bf79-ee22a807ab8c" LastKnownName="Emergency Room" />
+            <elementDefinition Id="28dd57b5-e79f-4438-a57f-a8e769a0d681" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="a91bfe87-b16c-4d5a-a37d-7e04c7257782" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0b43f7bd-b704-4c08-b16f-9f7e8fcea269" />
+          </property>
+          <property Id="0b5ec9f6-7691-403f-9dfc-17975682a17a" name="WaitingRoomQueue()" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1301429a-e5a3-403f-820f-faa56565e1eb" />
+          </property>
+          <property Id="d3e8230c-2d0e-4007-ac40-32cbdc7a140c" name="totalWaitTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9234fdfe-200c-4974-8228-eca20fcadf6f" />
+          </property>
+          <property Id="f3ff64b8-e9ad-4c22-a2db-516840f38c81" name="numberOfDoctor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="88f1c570-2f42-4e29-ada7-fae4baa550a9" />
+          </property>
+          <property Id="033fc1f5-84ac-4dcf-8533-e2519b0df41d" name="numberOfNurse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0f947eb0-5d7e-4dda-97e1-8c8f5a8f04d9" />
+          </property>
+          <property Id="a206064e-08cc-4b30-b29e-431d5b822346" name="LevelOfIllness" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d101773f-673e-43d0-9708-edd6a2725054" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="1c971917-5ce2-47f8-8b0f-a5606ac6e741" name="getNumOfDoc" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e49dfd75-d96f-4f7f-9944-f47d95d75b1f" />
+          </operation>
+          <operation Id="250cba27-45ec-4d2a-affb-dc4adcccb248" name="getNumOfNur" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="91aa2b39-4cea-4bcb-8bce-6fa5e9bfdf99" />
+          </operation>
+          <operation Id="43678283-1d78-48cc-b146-6cb28e71121b" name="getLevelOfIllness" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="091e0e45-eb0e-47ad-bc5b-3f5eb473f58f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b182c32e-d217-4c67-8488-3f615d1ee62d" name="Discharge Room" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="47179b16-292d-429a-a44e-b43935e41553" />
+        <suppliersInternal>
+          <dependency Id="de03bc66-c2cd-480f-ab95-53344974a372">
+            <classMoniker Id="ed1a9844-971c-46ee-bf79-ee22a807ab8c" LastKnownName="Emergency Room" />
+            <elementDefinition Id="71b133e2-e771-4809-9745-eabaf6ccb13b" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="ee917a93-b099-4272-a9ca-3de45d008211" isSubstitutable="false">
+            <classMoniker Id="5c3a4fbe-43c6-4e9d-b923-fb501e45d546" LastKnownName="Waiting Room" />
+            <elementDefinition Id="78ddb60d-363d-44a7-bb57-97d7a373b078" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="142d1148-1fbe-412a-9e63-840aac58a8cb" name="dischargeTim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="072b75e4-4063-4ffe-8269-1ce59b2552c5" />
+          </property>
+          <property Id="6dcdf9de-82cf-4dfd-9716-151b8885cc26" name="DoctorAvg()" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7ed6e8d6-3bed-4fb4-9565-264ac63be6af" />
+          </property>
+          <property Id="27dd8994-ecda-4d32-8b31-14ad4c67fe89" name="NurseAve()" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7d8f02f2-fb71-41c3-8339-b8c8f795dfb9" />
+          </property>
+          <property Id="08fceec6-3005-468b-a61a-a014ba512b95" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0997cfe7-67fc-4342-a4e4-e884a9a9b8bf" />
+          </property>
+          <property Id="e34078b6-46dd-4b7b-8055-673ca2f7a366" name="DischargeRoom()" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ecf97fde-1575-433b-aff9-bc86b68cc3f3" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="32b3fbfa-1c6e-4387-bc7d-c30c11e52c70" name="getNumOfDoc" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b9d0cc05-c135-4693-a90d-85ab459fe810" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8a763b10-c79a-4aa9-ae32-9b4afdb71e07" name="Caregivers" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2fd3a718-35a8-41d2-b451-3271435565e5" />
+        <targetEnds>
+          <association Id="2313c16b-450c-4446-9957-bfe6775845eb" isDerived="false" sourceEndRoleName="Caregivers" targetEndRoleName="Patients " isLeaf="false" isAbstract="false">
+            <classMoniker Id="111c3fc5-f0ce-43c9-a74c-f5edc14f732a" LastKnownName="Patients " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f38af864-62cd-40c7-b493-a2b40d241d73" name="Caregivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="48860fb4-292d-40c1-9026-42d43326890d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="97de00d0-c75c-4011-a4e5-fdec35fbb133" name="Patients " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="35790d71-084c-4ad1-8046-8a6065461906" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="39ac893f-8c6b-410f-abfc-868f25fb8603" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="65297244-a6fe-46de-9a63-a2a3c8422248" name="numberOfCareGivers int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="685cfe18-99ec-486c-83c6-40c6b972094e" />
+          </property>
+          <property Id="ec3712d2-20d3-4942-8598-9c89c3d1fd0a" name="treatmentTime" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7a3efb94-2736-4508-970e-0d1d92499e4c" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="cedcd051-2b13-4e37-9357-439ebf4775b2" name="getnumOfCareGivers" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eef64c0a-bd1f-4432-a165-1954622e850e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="69ede460-a88b-4a16-b6bc-52290339bd5b" direction="Return" isUnique="false">
+                  <elementDefinition Id="b326d8ec-865b-479e-b872-2fc74a128b60" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4c703a1f-26e9-4985-83cd-0abfd7accd14" LastKnownName="virtual int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b3004549-2d07-4a39-af5b-647689178b03" name="CareGiver" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8195a79c-fa7b-4650-a1b5-9d881a040c33" />
+          </operation>
+          <operation Id="86e00ce1-1b73-403b-931f-452bf5838590" name="setNumofCG" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="039bd15a-9f8d-4907-a66b-987452be4ba6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d2d400a1-7030-41d9-a3ea-c1cb6fe57089" direction="Return" isUnique="false">
+                  <elementDefinition Id="ac650472-b5aa-4dd1-b523-3bc6d4801e3e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f8eec14a-2bd3-4a13-825b-a5c99d0efadf" LastKnownName="virtual void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0ceb907c-e921-4fb6-ade6-352897a7ec56" name="getTreatmentTime" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2e7161bb-e304-4ccd-8f8a-e04f9d2dd42a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="33492830-ebf7-4c8c-bc7f-70e8dfb0b0e4" direction="Return" isUnique="false">
+                  <elementDefinition Id="a398f628-6fcc-4bcc-b764-496edc737bae" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4c703a1f-26e9-4985-83cd-0abfd7accd14" LastKnownName="virtual int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="232f9b11-a0cf-49e7-b2d3-4c2a99c45063" name="setTreatmentTime" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a887a621-c9fb-4601-ad1b-b7597828a04e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="111c3fc5-f0ce-43c9-a74c-f5edc14f732a" name="Patients " isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8ec95f89-2797-4025-afb3-fd535e587f43" />
+        <ownedAttributesInternal>
+          <property Id="97d247db-9124-4730-a5ad-a847bb3a47df" name="arrivalTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d0f21227-48d6-4c4a-9bb9-afacf7f862d3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bf4112b5-070f-457b-8e57-dacbb5123ffe" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="bae16b98-571d-4988-9add-53189f7e5ec8" name="startTimeOfTreatment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8717af95-61f3-46c3-b2c2-06799e6c5117" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bf4112b5-070f-457b-8e57-dacbb5123ffe" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="7ad67a75-6dd6-414f-a8fe-1a7dddf4c117" name="dischargeTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0a9008dc-6e06-423e-94d8-c285c2af6450" />
+          </property>
+          <property Id="09e9d543-29f6-4bc1-bbd6-d663a79ee378" name="levelOfIllness" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fe0d4dd8-93e7-4e2a-aeb9-a17c0c71ada8" />
+          </property>
+          <property Id="de62d6ef-333b-4cce-a353-ebbf49e2ce45" name="Patient ()" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2fb2c6e1-930c-4761-bfb7-91c3d71c2067" />
+          </property>
+          <property Id="eda118e6-c200-4c4d-a9e3-888ec91396c7" name="Patient (firstName, surName, clocl)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a6591495-f62d-4ce7-a94b-149ef0b4b9fd" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="be4fb8a6-d233-48f4-b956-55bfce0b5183" name="getTotalTimeOfTreatment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="687ba9f8-f340-4da4-8100-d1be224bebf9" />
+          </operation>
+          <operation Id="1c7489c8-b8a0-42e9-af4b-046fa4ade162" name="setTotalTimeOfTreatment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e2400f32-29f2-4330-a606-b8603a83c8cb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5753d79b-4e70-43f0-86dd-26d1b8ee11f9" name="int startTimeOfTreatment" direction="In" isUnique="false">
+                  <elementDefinition Id="9ef1d7ec-4f42-4627-8f66-649982b65f54" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="bf4112b5-070f-457b-8e57-dacbb5123ffe" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="32b7daf7-02fd-4ad6-ae9b-23156a2786a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4c703a1f-26e9-4985-83cd-0abfd7accd14" name="virtual int" isAbstract="false" isLeaf="false" cachedFullName="virtual int">
+        <elementDefinition Id="d9fc6ef3-e255-4476-aa12-fb40917a9e51" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f8eec14a-2bd3-4a13-825b-a5c99d0efadf" name="virtual void" isAbstract="false" isLeaf="false" cachedFullName="virtual void">
+        <elementDefinition Id="5bd88852-a8f1-4c5d-93f8-bbe0feef83e6" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="9541555a-f1c3-4dc5-80ef-6c2747340545" name="ModelingProject1">
+    <elementDefinition Id="c63218c8-c0a5-4fd6-b45a-969bd4792268" />
+  </package>
+</logicalClassDesignerModel>
