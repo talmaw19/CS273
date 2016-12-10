@@ -4,6 +4,17 @@
 *
 * @authors Everyone!
 */
+
+/*
+Dinner Party add, list, remove          25/30 -- need try/catch for push_front in add()
+                                            -- remove commented code in remove()
+BirthdayParty                           18/20 -- constructor needs to be in private:
+BirthdayPartyTicket                     20/20
+PartyFactory::factory                   10/10
+Well-designed and commented code        17/20 -- dinnerpartyticket in comments for birthdaypartyticket
+
+TOTAL                                   90/100
+*/
 #include <iostream>
 #include <string>
 #include "Party.h"
