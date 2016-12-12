@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\talmaw19\documents\github\cs273\hospsim\hospsim\patient.h(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\talmaw19\documents\github\cs273\hospsim\hospsim\patient.h(44): warning C4552: '+': operator has no effect; expected operator with side-effect
+c:\users\talmaw19\documents\github\cs273\hospsim\hospsim\patient.h(49): warning C4552: '+': operator has no effect; expected operator with side-effect
+  HospSim.vcxproj -> C:\Users\talmaw19\Documents\GitHub\CS273\HospSim\Debug\HospSim.exe
+  HospSim.vcxproj -> C:\Users\talmaw19\Documents\GitHub\CS273\HospSim\Debug\HospSim.pdb (Full PDB)
