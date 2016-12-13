@@ -1,0 +1,125 @@
+﻿  Source.cpp
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(28): error C3646: 'cosnt': unknown override specifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(44): error C2065: 'string': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(44): error C2146: syntax error: missing ';' before identifier 'fullName'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(44): error C2065: 'fullName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(45): error C2065: 'string': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(45): error C2065: 'pointer': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(45): error C2065: 'names': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(45): error C2228: left of '.data' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(45): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(46): error C2065: 'fin': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(46): error C2228: left of '.fail' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(46): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(46): error C2065: 'flast': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(47): error C2065: 'cout': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(52): error C2065: 'string': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(52): error C2146: syntax error: missing ';' before identifier 'firstName'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(52): error C2065: 'firstName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(52): error C2065: 'lastName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(53): error C2065: 'fin': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(53): error C2065: 'firstName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(53): error C3861: 'getline': identifier not found
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(53): error C2065: 'flast': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(53): error C2065: 'lastName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(55): error C2065: 'fullName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(55): error C2065: 'firstName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(55): error C2065: 'lastName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(56): error C2065: 'pointer': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(56): error C2065: 'fullName': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\patient.h(57): error C2065: 'pointer': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(28): error C2065: 'Caregiver': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(28): error C2923: 'std::vector': 'Caregiver' is not a valid template type argument for parameter '_Ty'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(28): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(29): error C2143: syntax error: missing ';' before '*'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(29): error C2238: unexpected token(s) preceding ';'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(30): error C2143: syntax error: missing ';' before '*'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(30): error C2238: unexpected token(s) preceding ';'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(33): error C2065: 'Hospital': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(33): error C2923: 'std::multimap': 'Hospital' is not a valid template type argument for parameter '_Ty'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(375): error C3203: 'pair': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\caregivers.h(13): error C2253: 'EmergencyRoom::Caregiver::servePatient': pure specifier or abstract override specifier only allowed on virtual function
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(13): error C2059: syntax error: 'using namespace'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(13): error C2238: unexpected token(s) preceding ';'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(15): error C2059: syntax error: 'string'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(16): error C2059: syntax error: 'string'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(32): error C2059: syntax error: 'if'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(105): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(109): warning C4183: 'TreamentRoom': missing return type; assumed to be a member function returning 'int'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(139): error C2628: 'EmergencyRoom::TreatmentRoom' followed by 'void' is illegal (did you forget a ';'?)
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(140): error C2556: 'EmergencyRoom::TreatmentRoom EmergencyRoom::update(int)': overloaded function differs only by return type from 'void EmergencyRoom::update(int)'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(38): note: see declaration of 'EmergencyRoom::update'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(139): error C2371: 'EmergencyRoom::update': redefinition; different basic types
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(38): note: see declaration of 'EmergencyRoom::update'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C2059: syntax error: 'for'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C2143: syntax error: missing ')' before ';'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C2238: unexpected token(s) preceding ';'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C3927: '->': trailing return type is not allowed after a non-function declarator
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C3484: syntax error: expected '->' before the return type
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C3613: missing return type after '->' ('int' assumed)
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C3646: 'begin': unknown override specifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C2059: syntax error: '('
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C2143: syntax error: missing ';' before '++'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(141): error C2059: syntax error: ')'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(142): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(150): warning C4624: 'EmergencyRoom': destructor was implicitly defined as deleted
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(153): error C2628: 'EmergencyRoom' followed by 'void' is illegal (did you forget a ';'?)
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(157): error C2065: 'TreatmentRoom': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(157): error C2146: syntax error: missing ';' before identifier 'tr'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(157): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(170): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(170): error C2228: left of '.update' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(170): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(172): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(172): error C2228: left of '.patientList' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(172): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(173): error C2065: 'hospital': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(173): error C2227: left of '->addRecords' must point to class/struct/union/generic type
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(173): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(176): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(176): error C2228: left of '.patientsList' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(176): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(32): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(32): error C2512: 'std::multimap': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(377): note: see declaration of 'std::multimap'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(69): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(73): error C2248: 'EmergencyRoom::Nurse::Nurse': cannot access private member declared in class 'EmergencyRoom::Nurse'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\caregivers.h(41): note: see declaration of 'EmergencyRoom::Nurse::Nurse'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\caregivers.h(39): note: see declaration of 'EmergencyRoom::Nurse'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\emergencyroom.h(74): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(102): error C2664: 'EmergencyRoom::Hospital::Hospital(EmergencyRoom::Hospital &&)': cannot convert argument 1 from 'EmergencyRoom *' to 'const EmergencyRoom::Hospital &'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(102): note: Reason: cannot convert from 'EmergencyRoom *' to 'const EmergencyRoom::Hospital'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(102): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(106): error C2039: 'servingPatient': is not a member of 'EmergencyRoom::TreatmentRoom'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(19): note: see declaration of 'EmergencyRoom::TreatmentRoom'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(108): error C2039: 'totalTreatment': is not a member of 'EmergencyRoom::TreatmentRoom'
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(19): note: see declaration of 'EmergencyRoom::TreatmentRoom'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(118): error C2228: left of '.fail' must have class/struct/union
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(125): error C3867: 'EmergencyRoom::fin': non-standard syntax; use '&' to create a pointer to member
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(125): error C2672: 'getline': no matching overloaded function found
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(125): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\string(146): note: see declaration of 'std::getline'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(125): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\string(73): note: see declaration of 'std::getline'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(125): error C3867: 'EmergencyRoom::flast': non-standard syntax; use '&' to create a pointer to member
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(187): error C2059: syntax error: '}'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\treatmentroom.h(187): error C2143: syntax error: missing ';' before '}'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(11): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(13): error C2065: 'TreatmentRoom': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(13): error C2146: syntax error: missing ';' before identifier 'tr'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(13): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(14): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(14): error C2228: left of '.welcome' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(14): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(15): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(15): error C2228: left of '.menu' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(15): note: type is 'unknown-type'
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(16): error C2065: 'tr': undeclared identifier
+\\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(16): error C2228: left of '.patientsList' must have class/struct/union
+  \\cs1\2019\talmaw19\cs273\project\hsimulation\hsimulation\source.cpp(16): note: type is 'unknown-type'
